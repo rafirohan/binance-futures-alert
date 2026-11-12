@@ -6,8 +6,8 @@ import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 BASE_URL = "https://fapi.binance.com"
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-CHAT_ID = os.environ["CHAT_ID"]
+BOT_TOKEN = os.environ["9204599241:AAEHzZTAMCzy1VMYrm6UbTJ0vLhGPCNvyA0"]
+CHAT_ID = os.environ["5923577644"]
 
 THRESHOLD = 250
 STATE_FILE = "state.json"
