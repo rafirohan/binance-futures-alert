@@ -3,7 +3,7 @@ name: Binance Futures Pump Scanner
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/1 * * * *"
   workflow_dispatch:
 
 permissions:
